@@ -78,8 +78,7 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.slick-prev
-{
+.slick-prev{
     left: -25px;
 }
 [dir='rtl'] .slick-prev
@@ -87,8 +86,7 @@
     right: -25px;
     left: auto;
 }
-.slick-prev:before
-{
+.slick-prev:before{
     content: '';
     background-image: url('../images/arrow-left.png');
     color: black;
@@ -96,37 +94,12 @@
     height: 45px;
     display: inline-block;
     z-index: 9999;
-
 }
-[dir='rtl'] .slick-prev:before
-{
+[dir='rtl'] .slick-prev:before{
     content: '→';
-    
 }
 
-.slick-next
-{
-    right: -25px;
-}
-[dir='rtl'] .slick-next
-{
-    right: auto;
-    left: -15px;
-}
-.slick-next:before
-{
-    content: '';
-    background-image: url('../images/arrow-right.png');
-    color: black;
-    width: 45px;
-    height: 45px;
-    display: inline-block;
-    
-}
-[dir='rtl'] .slick-next:before
-{
-    content: '←';
-}
+
 
 /* Dots */
 .slick-dotted.slick-slider
